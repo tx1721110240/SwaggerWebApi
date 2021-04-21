@@ -1,0 +1,9 @@
+D:\GitHub\SwaggerWebApi\SwaggerWebApi\obj\Debug\net5.0\SwaggerWebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\SwaggerWebApi\SwaggerWebApi\obj\Debug\net5.0\SwaggerWebApi.AssemblyInfoInputs.cache
+D:\GitHub\SwaggerWebApi\SwaggerWebApi\obj\Debug\net5.0\SwaggerWebApi.AssemblyInfo.cs
+D:\GitHub\SwaggerWebApi\SwaggerWebApi\obj\Debug\net5.0\SwaggerWebApi.csproj.CoreCompileInputs.cache
+D:\GitHub\SwaggerWebApi\SwaggerWebApi\obj\Debug\net5.0\SwaggerWebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub\SwaggerWebApi\SwaggerWebApi\obj\Debug\net5.0\SwaggerWebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\SwaggerWebApi\SwaggerWebApi\obj\Debug\net5.0\SwaggerWebApi.dll
+D:\GitHub\SwaggerWebApi\SwaggerWebApi\obj\Debug\net5.0\SwaggerWebApi.pdb
+D:\GitHub\SwaggerWebApi\SwaggerWebApi\obj\Debug\net5.0\SwaggerWebApi.csprojAssemblyReference.cache
