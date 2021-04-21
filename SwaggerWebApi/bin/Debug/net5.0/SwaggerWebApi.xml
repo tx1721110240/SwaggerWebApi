@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerWebApi.Controllers.V1.V1Controller.GetV1">
+            <summary>
+            这里是V1
+            </summary>
+            <returns></returns> 
+        </member>
+        <member name="M:SwaggerWebApi.Controllers.V1.V1Controller.DeleteV1">
+            <summary>
+            这里是DeleteV1
+            </summary>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:SwaggerWebApi.Controllers.V2.V2Controller.GetV2">
+            <summary>
+            这里是v2
+            </summary>
+            <returns></returns> 
+        </member>
+        <member name="M:SwaggerWebApi.Controllers.V3.V3Controller.GetV3">
+            <summary>
+            这里是v3
+            </summary>
+            <returns></returns> 
+        </member>
+        <member name="M:SwaggerWebApi.Controllers.V4.V4Controller.GetV4">
+            <summary>
+            这里是V4
+            </summary>
+            <returns></returns> 
+        </member>
+    </members>
+</doc>

@@ -5,19 +5,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SwaggerWebApi.Controllers.V3
+namespace SwaggerWebApi.Controllers.V4
 {
     [Route("api/[controller]")]
-    [ApiExplorerSettings(GroupName = "v3")]
+    [ApiExplorerSettings(GroupName = "v4")]
     [ApiController]
-    public class V3Controller : Controller
+    public class V4Controller : Controller
     {
         /// <summary>
-        /// 这里是v3
+        /// 这里是V4
         /// </summary>
         /// <returns></returns> 
         [HttpGet]
-        public string GetV3()
+        [Route("api/[controller]/GetV4")]
+        public string GetV4()
         {
             return Newtonsoft.Json.JsonConvert.SerializeObject(new
             {
@@ -26,7 +27,8 @@ namespace SwaggerWebApi.Controllers.V3
         }
 
         [HttpDelete]
-        public string DeleteV3()
+        [Route("api/[controller]/DeleteV4")]
+        public string DeleteV4()
         {
             return Newtonsoft.Json.JsonConvert.SerializeObject(new
             {
@@ -36,7 +38,8 @@ namespace SwaggerWebApi.Controllers.V3
         }
 
         [HttpPut]
-        public string UpdateV3()
+        [Route("api/[controller]/UpdateV4")]
+        public string UpdateV4()
         {
             return Newtonsoft.Json.JsonConvert.SerializeObject(new
             {
@@ -46,7 +49,8 @@ namespace SwaggerWebApi.Controllers.V3
         }
 
         [HttpPost]
-        public string AddV3()
+        [Route("api/[controller]/AddV4")]
+        public string AddV4()
         {
             return Newtonsoft.Json.JsonConvert.SerializeObject(new
             {
@@ -57,7 +61,8 @@ namespace SwaggerWebApi.Controllers.V3
 
 
         [HttpPost]
-        public string AddNewV3()
+        [Route("api/[controller]/AddNewV4")]
+        public string AddNewV4()
         {
             return Newtonsoft.Json.JsonConvert.SerializeObject(new
             {
