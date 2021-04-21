@@ -10,6 +10,7 @@ namespace SwaggerWebApi.Controllers.V2
     [Route("api/[controller]")]
     [ApiExplorerSettings(GroupName = "v2")]
     [ApiController]
+    [Microsoft.AspNetCore.Authorization.Authorize]
     public class V2Controller : Controller
     {
         /// <summary>
@@ -17,6 +18,7 @@ namespace SwaggerWebApi.Controllers.V2
         /// </summary>
         /// <returns></returns> 
         [HttpGet]
+        [Microsoft.AspNetCore.Authorization.AllowAnonymous]
         [Route("api/[controller]/GetV2")]
         public string GetV2()
         {

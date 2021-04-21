@@ -11,6 +11,7 @@ namespace SwaggerWebApi.Controllers.V1
     [Route("api/[controller]")]
     [ApiExplorerSettings(GroupName = "v1")]
     [ApiController]
+    [Microsoft.AspNetCore.Authorization.Authorize]
     public class V1Controller : Controller
     {
         /// <summary>
@@ -18,6 +19,7 @@ namespace SwaggerWebApi.Controllers.V1
         /// </summary>
         /// <returns></returns> 
         [HttpGet]
+        [Microsoft.AspNetCore.Authorization.AllowAnonymous]
         public string GetV1()
         {
             return Newtonsoft.Json.JsonConvert.SerializeObject(new

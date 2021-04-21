@@ -10,6 +10,7 @@ namespace SwaggerWebApi.Controllers.V3
     [Route("api/[controller]")]
     [ApiExplorerSettings(GroupName = "v3")]
     [ApiController]
+    [Microsoft.AspNetCore.Authorization.Authorize]
     public class V3Controller : Controller
     {
         /// <summary>
@@ -17,6 +18,7 @@ namespace SwaggerWebApi.Controllers.V3
         /// </summary>
         /// <returns></returns> 
         [HttpGet]
+        [Microsoft.AspNetCore.Authorization.AllowAnonymous]
         [Route("api/[controller]/GetV3")]
         public string GetV3()
         {
