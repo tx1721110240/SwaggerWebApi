@@ -133,7 +133,9 @@ namespace SwaggerWebApi
 
             // app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SwaggerWebApi v1"));
             #endregion
-
+            #region jwt
+            app.UseAuthentication();//注意添加这一句，启用验证
+            #endregion
             app.UseRouting();
 
             app.UseAuthorization();
